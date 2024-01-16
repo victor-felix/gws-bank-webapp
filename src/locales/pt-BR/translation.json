@@ -1,0 +1,40 @@
+{
+  "textLabels": {
+    "welcome": "Bem vindo, ",
+    "balance": "Saldo Atual",
+    "withdraw": "Saque",
+    "account": "Conta: ",
+    "resultModalTitle": "Resultado do Saque"
+  },
+  "button": {
+    "labels": {
+      "confirmWithdraw": "Confirmar",
+      "closeResultModal": "Fechar"
+    }
+  },
+  "input": {
+    "labels": {
+      "amountLabel": "Valor",
+      "languageLabel": "Idioma"
+    },
+    "validations": {
+      "amountIsRequiredMessage": "O Valor é obrigatório"
+    }
+  },
+  "pluguins": {
+    "axios": {
+      "error": {
+        "internal": {
+          "message": "An unexpected failure has occurred"
+        }
+      }
+    }
+  },
+  "api": {
+    "error": {
+      "insufficientFunds": "O saldo atual é insuficiente",
+      "insufficientNotes": "Notas insuficientes para este valor",
+      "unexpected": "An unexpected failure has occurred"
+    }
+  }
+}
